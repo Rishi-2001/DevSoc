@@ -1,0 +1,34 @@
+body{
+    background-color: #F0E4D7; 
+  }
+  /*Tag Selectors*/
+  hr{
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted; 
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+  h1{
+      color: rgb(141, 9, 9);
+      font-size: 50px;
+  }
+  h3{
+      color: rgb(124, 16, 16);
+  }
+  img:hover{
+      background-color: gold;
+  }/*Pseudo Class*/
+
+  /*Class Selectors*/
+  .Rishi
+  {
+      background-color: lawngreen;
+  }
+  .Divs
+  {
+      background-color: red;
+  }
+  /*Id > Class > Tag Selector{Priority}*/
+  /*Class => Can be used in multiple places - ID => Can be used just once*/
